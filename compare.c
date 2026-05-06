@@ -11,7 +11,7 @@ printf("a is greater than b\n");
 else if(a<b){
 printf("b is greater than a\n");
 }
-else if(a==b){
+else{
 printf("a equals to b\n");
 }
 }
