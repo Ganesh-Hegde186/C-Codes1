@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<ctype.h>
+int sum(int array[]);
+int main(void){
+int arr[5]={10,20,30};
+printf("Size of the array element is:%zu\n",sizeof(arr[0]));
+printf("Size of arr is:%zu\n",sizeof(arr));
+printf("Number of Elements:%zu\n",sizeof(arr)/sizeof(arr[0]));
+for(int i=0;i<5;i++){
+printf("%i\n",arr[i]);
+}
+for(int i=0;i<5;i++){
+printf("%p\n",(void*)&arr[i]);
+}
+printf("Sum of array is:%d\n",sum(arr));
+return 0;
+}
+int sum(int array[]){
+int s=0;
+int n= sizeof(array)/sizeof(array[0]);for(int i=0;i<n;i++){
+s=s+array[i];
+}
+return s;
+}
