@@ -1,2 +1,38 @@
 abc.c
+# SSH keys
+Documents
+Documents.pub
+Myfile
+Myfile.pub
+Myfiles
+Myfiles.pub
 
+# C executables
+a.out
+*.out
+
+# Backup files
+*.save
+*.save.*
+
+# Object files
+*.o
+
+# SSH keys
+Documents
+Documents.pub
+Myfile
+Myfile.pub
+Myfiles
+Myfiles.pub
+
+# C executables
+a.out
+*.out
+
+# Backup files
+*.save
+*.save.*
+
+# Object files
+*.o
