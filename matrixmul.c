@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main(void){
 int n=3;
-int a[3][3]={{1,2,3},{4,5,6},{2,3,4}};
-int b[3][3]={{7,8,9},{1,2,3},{3,4,4}};
+int a[3][3]={{1,2,3},{4,5,6},{7,8,9}};
+int b[3][3]={{2,3,4},{5,6,7},{8,9,1}};
 int c[3][3]={0};
 printf("Matrix Multiplication:\n");
 for(int i=0;i<n;i++){
